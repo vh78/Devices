@@ -1,0 +1,35 @@
+.jumbotron {
+    color: white;
+    background-color: #0066cc;
+    height: 60vh;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+#first {
+    margin: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#about {
+    height: 60vh;
+}
+
+#about p {
+    margin-top: 20%;
+}
+
+.dropdown-menu {
+    min-width: 10px;
+    margin-top: 8px;
+    margin-left: 18px;
+}
+
+#devices {
+    text-align: center;
+}
