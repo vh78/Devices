@@ -3,14 +3,14 @@
 
 <head>
     <title>My profile</title>
+    <link rel="icon" href="../images/devices.jpg" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/admin1.css">
-    <!--Must edit a navigation dropdown-->
+    <link rel="stylesheet" href="../css/my-profile.css">
 </head>
 
 <body>
@@ -52,15 +52,20 @@
 
     <section>
         <div class="container">
-            <div class="emp-profile p-5 mt-3 mb-3 py-1">
-                <div class="row ">
-                    <button class="btn btn-primary">Edit profile</button>
+            <div class="emp-profile pt-5 mt-5 mb-4 py-4 px-2">
+                <div class="btn-group" role="group">
+                    <a href="edit.html"><button type="button" class="btn btn-primary">Edit</button></a>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+                <hr>
+                <div class="row px-2 py-5">
                     <div class="col-md-4">
                         <div class="profile-img">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt="" />
+                            <img src="../images/profile.jpg" with="150px" height="130px" alt="No image" class="rounded" />
                         </div>
                     </div>
                 </div>
+                <hr>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="profile-head mb-3 mt-3">
@@ -89,9 +94,9 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer class="py-3 bg-dark">
+    <footer class="py-4 bg-dark">
         <div class="container">
-            <p class="text-center text-white">Copyright &copy; Devices system 2020</p>
+            <p class="text-center text-white">Copyright &copy; System of devices 2020</p>
         </div>
     </footer>
     <!--End-->
